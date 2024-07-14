@@ -25,7 +25,7 @@
                     <v-card-actions class="d-flex justify-center">
                         <v-btn
                             append-icon="mdi-chevron-right"
-                            color="red-darken-4"
+                            
                             text="View Source"
                             :href="experience.source"
                             target="_blank"
