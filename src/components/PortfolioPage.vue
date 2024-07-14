@@ -55,6 +55,10 @@ body {
   padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .no-padding {
   padding: 0 !important;
 }
