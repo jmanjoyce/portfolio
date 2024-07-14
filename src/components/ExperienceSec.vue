@@ -130,10 +130,16 @@ export default defineComponent({
             ],
         };
     },
+   
 });
 </script>
 
 <style>
+
+
+
+
+
 .display-1 {
     margin-bottom: 20px;
 }

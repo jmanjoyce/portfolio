@@ -25,11 +25,11 @@
                     <v-card-actions class="d-flex justify-center">
                         <v-btn
                             append-icon="mdi-chevron-right"
-                            color="red-lighten-4"
+                            color="red-darken-4"
                             text="View Source"
                             :href="experience.source"
                             target="_blank"
-                            variant="tonal"
+                            variant="elevated"
                             block
                         ></v-btn>
                     </v-card-actions>
