@@ -3,11 +3,11 @@
   <v-app-bar app>
         <v-toolbar-title>Jared Joyce</v-toolbar-title>
         <v-spacer></v-spacer>
-        <v-btn href="#home">Home</v-btn>
-        <v-btn href="#about">About</v-btn>
-        <v-btn href="#experience">Experience</v-btn>
-        <v-btn href="#projects">Projets</v-btn>
-        <v-btn href="#contact">Contact</v-btn>
+        <v-btn d-none d-md-flex href="#home">Home</v-btn>
+        <v-btn d-none d-md-flex href="#about">About</v-btn>
+        <v-btn d-none d-md-flex href="#experience">Experience</v-btn>
+        <v-btn d-none d-md-flex href="#projects">Projets</v-btn>
+        <v-btn d-none d-md-flex href="#contact">Contact</v-btn>
     </v-app-bar>
    
 </template>
