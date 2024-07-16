@@ -7,11 +7,16 @@
                     <v-card-text class="d-flex about-content">
                         <div class="about-text">
                             <p class="text">
-                                Hi, I'm Jared. I recently graduated from Bowdoin College, where I double majored in Mathematics and Computer Science, and minored in English. During my time at Bowdoin, I was a dedicated member of the track team, specializing in the 400m.
-                                I broke two school records and secured numerous top-three finishes in both the individual 400m and the 4x400m relay at the NESCAC championships. 
+                               Hi, I'm Jared. I recently graduated from Bowdoin College, where I majored in Mathematics and Computer Science and broke two school records in the 400M sprint as a member of the track team. 
+
                             </p>
                             <p class="text">
-                                Beyond my academic and athletic pursuits, I have a deep passion for software engineering, I have loved the work I have done in networking and crypto as well as in data visualization but I am open to most rolls. In my free time, I enjoy climbing which I take too seriously, backcountry skiing which helps me see the world and reading which keeps me young.
+                                I have a deep passion for software engineering, I have had work experience and projects ranging from networking and crypto to data visualization. These experiences have fueled my enthusiasm for creating impactful software solutions that drive data-driven decision-making and secure digital transactions.
+
+                            </p>
+                            <p class="text">
+                                In my free time I am an avid sport climber and boulderer. I love the dedication, persistence and patience climbing requires, it teaches me to love the process. Additionally I love exploring the world through backcountry skiing, and learning about it through reading. 
+
                             </p>
                         </div>
                         <v-img

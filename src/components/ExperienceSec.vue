@@ -96,8 +96,8 @@ export default defineComponent({
                     date: "May 2023 - August 2023",
                     description: [
                         "Developed a data annotation platform from the ground up, leveraging Vue.js, SCSS, TypeScript, and MongoDB, improving NLP training data by streamlining the annotation process and enhancing data quality.",
-                        "Employed GPT-4 for knowledge distillation to train smaller domain-specific summarization models.",
-                        "Created intuitive visualization tools using D3.js and Vue.js to visualize character franchise information.",
+                        "Utilized GPT-4 for knowledge distillation to train smaller domain-specific summarization models for video game scripts and stories.",
+                        "Created intuitive visualization tools using D3.js and Vue.js to visualize character franchise information for writers to use as a reference for continuing franchises.",
                     ],
                     skills: " Vue.js, Typescript, Python, MongoDB, SCSS",
                 },
@@ -117,14 +117,14 @@ export default defineComponent({
                     title: "Computer Science Research Fellow",
                     date: "May 2021 - May 2023",
                     description: [
-                        "Employed Game-Theoretic Approaches to model and understand networked systems of influence.",
-                        "Implemented BackJumping and Constraint Learning algorithms in C++.",
+                        "Employed Game-Theoretic Approaches to model and understand networked systems of influence in the context of voting behavior and patterns.",
+                        "Implemented BackJumping and Constraint Learning algorithms in C++ optimized for Influence games networks.",
                     ],
                     secondTitle: "Computer Science and Math Learning Assistant",
                     secondDate: "September 2021 - May 2024",
                     secondDescription: [
                         "Assisted students through CSCI 2200 Algorithms, CSCI 2320 Principles of Programming languages, CSCI 2303 Systems, and MATH 2600 Statistics.",
-                        "Guided students through learning and understanding complex algorithms",
+                        "Guided students through learning difficult concepts, and provided constructive, positive feedback in a timely manner.",
                     ],
                 },
             ],
