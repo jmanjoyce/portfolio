@@ -7,7 +7,7 @@
         </v-row>
         <v-row>
             <v-col
-                v-for="(experience, index) in experiences"
+                v-for="(experience) in experiences"
                 :key="experience.title"
                 cols="12"
                 md="6"
