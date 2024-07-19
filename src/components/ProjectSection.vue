@@ -1,15 +1,16 @@
 <template>
     <v-container>
-        <v-row>
+        <v-row justify="center">
             <v-col cols="12" class="text-center">
                 <h1 class="display-1">Projects</h1>
             </v-col>
         </v-row>
-        <v-row>
+        <v-row justify="center">
             <v-col
                 v-for="(experience) in experiences"
                 :key="experience.title"
                 cols="12"
+                sm="8"
                 md="6"
                 lg="4"
             >
@@ -19,7 +20,6 @@
                         :image="experience.image"
                         color="surface-variant"
                         hover
-                        
                         ref="cards"
                     >
                         <div class="title-overlay" v-show="!isHovering">
@@ -30,13 +30,14 @@
                             <v-card-text class="text-overlay">
                                 {{ experience.description }}
                             </v-card-text>
-                            <v-card-actions class="d-flex justify-center">
+                            <v-card-actions class="justify-center">
                                 <v-btn
-                                    append-icon="mdi-chevron-right"
                                     text="View Source"
                                     :href="experience.source"
                                     target="_blank"
+                                    size="small"
                                     variant="elevated"
+                                    color="blue-lighten-2"
                                     block
                                 ></v-btn>
                             </v-card-actions>

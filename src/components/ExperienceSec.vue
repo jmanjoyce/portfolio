@@ -152,6 +152,12 @@ export default defineComponent({
     margin: 0;
 }
 
+
+
+.experience-card ul {
+    text-align: left;
+}
+
 .experience-card .subtitle-2 {
     margin: 0;
     color: gray;

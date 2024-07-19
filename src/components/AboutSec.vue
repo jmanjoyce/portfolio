@@ -1,13 +1,19 @@
 <template>
     <v-container>
         <v-row>
+            <v-col cols="12" class="text-center">
+                <h1 class="display-1">About Me</h1>
+            </v-col>
+        </v-row>
+        <v-row>
             <v-col>
                 <v-card>
-                    <v-card-title> About Me </v-card-title>
+                 
                     <v-card-text class="d-flex about-content">
                         <div class="about-text">
                             <p class="text">
-                               Hi, I'm Jared. I recently graduated from Bowdoin College, where I majored in Mathematics and Computer Science and broke two school records in the 400M sprint as a member of the track team. 
+                                Hi, I'm Jared. I recently graduated from Bowdoin College, where I majored in Mathematics and Computer Science and minored in English. As a four-year member of the track team, I broke two school records in the 400M sprint. 
+
 
                             </p>
                             <p class="text">
@@ -15,7 +21,7 @@
 
                             </p>
                             <p class="text">
-                                In my free time I am an avid sport climber and boulderer. I love the dedication, persistence and patience climbing requires, it teaches me to love the process. Additionally I love exploring the world through backcountry skiing, and learning about it through reading. 
+                                In my free time, I am an avid sport climber and boulderer. I love the dedication, persistence, and patience climbing requires. It teaches me every day to love the process. Additionally, I love exploring the world through backcountry skiing and learning about it through reading.  
 
                             </p>
                         </div>
@@ -41,18 +47,28 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.display-1 {
+    margin-bottom: 20px;
+}
 .about-content {
     align-items: center;
 }
 
+
+
 .about-text {
     flex: 70%;
+}
+
+.about-text p {
+    text-align: left;
 }
 
 .text {
     font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 1rem;
+    
 }
 
 .about-image {
