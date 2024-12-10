@@ -8,6 +8,7 @@
         <!-- <v-btn d-none d-md-flex href="#home">Home</v-btn> -->
         <v-btn d-none d-md-flex href="#about">About</v-btn>
         <v-btn d-none d-md-flex href="#experience">Experience</v-btn>
+        <v-btn d-none d-md-flex href="#quasp">Quasp</v-btn>
         <v-btn d-none d-md-flex href="#projects">Projects</v-btn>
         <v-btn d-none d-md-flex href="#contact">Contact</v-btn>
     </v-app-bar>

@@ -15,6 +15,9 @@
         </v-container>
     </div>
     <div>
+        <CurrentHappenings id="quasp"></CurrentHappenings>
+    </div>
+    <div>
         <ExperienceSec id="experience"></ExperienceSec>
     </div>
     <div>
@@ -38,10 +41,11 @@ import HeaderSec from '../components/HeaderSec.vue'
 import ProjectSection from '../components/ProjectSection.vue'
 import ExperienceSec from '../components/ExperienceSec.vue'
 import TitleSection from '../components/TitleSection.vue'
+import CurrentHappenings from './CurrentHappenings.vue';
 
 export default defineComponent({
     name: "PortfolioPage",
-    components: { AboutSec, FooterBottom, HeaderSec, ProjectSection, ExperienceSec, TitleSection},
+    components: { AboutSec, FooterBottom, HeaderSec, ProjectSection, ExperienceSec, TitleSection, CurrentHappenings},
    
 })
 

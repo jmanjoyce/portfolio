@@ -6,11 +6,9 @@
                     <GraphOverLay></GraphOverLay>
                 </div>
                 <div>
-                    <h1 class="display-1">Hey, I'm Jared</h1>
-                    <p class="subtitle-1">I'm a software engineer</p>
-                    <!-- <p class="subtitle-1">
-                        This is the Clebsh graph, play around with it!
-                    </p> -->
+                    <h1>Hey, I'm Jared</h1>
+                    <p :class="['subtitle-1', 'shadow']">I'm a software engineer</p>
+                    <p :class="['subtitle-1', 'shadow']">and I'm currently building Quasp</p>
                 </div>
                 
             </v-col>
@@ -34,6 +32,10 @@ export default defineComponent({
     color: white;
     height: 100vh;
     padding: 0; /* Remove any default padding */
+}
+
+.shadow {
+    text-shadow: -0.5px -0.5px 0 #707070, 0.5px -0.5px 0 #707070, -0.5px 0.5px 0 #707070, 0.5px 0.5px 0 #707070;
 }
 
 

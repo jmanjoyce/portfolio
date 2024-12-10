@@ -146,7 +146,7 @@ export default defineComponent({
                     .on("end", dragended)
             );
 
-        // console.log(svg);
+        // conmsole.log(svg);
 
         node.append("title").text((d: any) => d.id);
 
